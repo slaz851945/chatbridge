@@ -1,5 +1,9 @@
 # ChatBridge
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23067074.svg)](https://doi.org/10.5281/zenodo.23067074)
+[![CI](https://github.com/slaz851945/chatbridge/actions/workflows/ci.yml/badge.svg)](https://github.com/slaz851945/chatbridge/actions/workflows/ci.yml)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
 > Pont portable entre sessions LLM. Export/import intégral de longs chats (DeepSeek, ChatGPT), **100 % local**.
 
 ## Statut
