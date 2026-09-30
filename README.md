@@ -35,12 +35,12 @@
 nvm use
 npm install
 npm run quality
-npm run dev     # userscript en watch mode
+npm run dev     #  g userscript en watch mode
 
 ```
 ---
 
-Utilisateur
+# Utilisateur
 Installer Tampermonkey.
 
 Builder le userscript : npm run build.
@@ -49,15 +49,16 @@ Ouvrir dist/chatbridge.user.js dans Tampermonkey (Dashboard → + → coller →
 
 Ouvrir chat.deepseek.com — le panneau ChatBridge apparaît en bas à droite.
 
-Utilisation
-Export
+# Utilisation
+
+## Export
 Ouvre le chat à exporter.
 
 Clique « Exporter ce chat ».
 
 Le .zip se télécharge automatiquement.
 
-Import
+## Import
 Ouvre un chat vide dans DeepSeek.
 
 Coche « Mode compact » si le chat dépasse ~120 chunks.
@@ -66,23 +67,23 @@ Clique « Importer un chat » → sélectionne le .zip ChatBridge.
 
 Laisse tourner (5-15 min selon la taille).
 
-Architecture
+# Architecture
 Clean Architecture à 4 couches :
 
-domain/ — modèles purs, hashing, formats (aucune dépendance).
+- domain/ — modèles purs, hashing, formats (aucune dépendance).
 
-application/ — cas d'usage, ports, chunking, orchestrateurs.
+- application/ — cas d'usage, ports, chunking, orchestrateurs.
 
-infrastructure/ — adaptateurs DeepSeek, sérialiseurs, intercepteur API.
+- infrastructure/ — adaptateurs DeepSeek, sérialiseurs, intercepteur API.
 
-interface/ — userscript (Panel Shadow DOM, download, bootstrap).
+- interface/ — userscript (Panel Shadow DOM, download, bootstrap).
 
-Cadre de travail
+- Cadre de travail
 Voir docs/00_WORKING_AGREEMENT.md. Cycle en 7 phases, DoR/DoD stricts, 0 mypy/ruff, coverage ≥ 82 %.
 
 ## Captures d'écran
 
-### Panneau ChatBri
+### Panneau ChatBridge
 
 Ouvre n'importe quel chat DeepSeek.
 
@@ -136,5 +137,5 @@ Le panneau affiche ✅ Import terminé.
 Scrolle un peu pour montrer que les messages ont bien été réinjectés.
 ![Import terminé](docs/screenshots/06-import-success.png)
 
-Licence
+- Licence
 AGPL-3.0-or-later.
