@@ -1,0 +1,11 @@
+{
+  "title": "ChatBridge — Pont portable entre sessions LLM",
+  "description": "ChatBridge permet d'exporter intégralement un chat LLM volumineux (DeepSeek, ChatGPT) vers un format portable (JSON + Markdown + ZIP), puis de le réinjecter dans une nouvelle session. Traitement 100% local.",
+  "creators": [{ "name": "ChatBridge Project" }],
+  "keywords": ["LLM", "chat export", "chat import", "DeepSeek", "ChatGPT", "Tampermonkey", "userscript"],
+  "license": "AGPL-3.0-or-later",
+  "upload_type": "software",
+  "access_right": "open",
+  "version": "0.1.0",
+  "publication_date": "2026-09-30"
+}

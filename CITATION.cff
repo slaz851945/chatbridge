@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ChatBridge, citez-le comme suit."
+title: "ChatBridge — Pont portable entre sessions LLM"
+abstract: >
+  ChatBridge permet d'exporter intégralement un chat LLM volumineux
+  (DeepSeek, ChatGPT) vers un format portable (JSON + Markdown + ZIP),
+  puis de le réinjecter dans une nouvelle session en respectant fidèlement
+  la structure (rôles, ordre, blocs de raisonnement).
+  Traitement 100% local.
+type: software
+authors:
+  - name: "ChatBridge Project"
+version: "0.1.0"
+date-released: "2026-09-30"
+license: AGPL-3.0-or-later
+repository-code: "https://github.com/CHANGE-ME/chatbridge"
+keywords:
+  - LLM
+  - chat export
+  - chat import
+  - DeepSeek
+  - ChatGPT
+  - Tampermonkey
+  - userscript
+  - privacy
