@@ -82,28 +82,58 @@ Voir docs/00_WORKING_AGREEMENT.md. Cycle en 7 phases, DoR/DoD stricts, 0 mypy/ru
 
 ## Captures d'écran
 
-### Panneau ChatBridge
+### Panneau ChatBri
+
+Ouvre n'importe quel chat DeepSeek.
 
 ![Panneau ChatBridge](docs/screenshots/01-panel.png)
 
 ### Export en cours
 
+Clique « Exporter ce chat ».
+
+Attends 5-10 secondes que la progression démarre.
+
 ![Export en cours](docs/screenshots/02-export-progress.png)
 
 ### Export terminé
+
+Attends la fin de l'export.
+
+Le panneau affiche ✅ N messages — chatbridge-xxx.zip.
+
+
 
 ![Export terminé](docs/screenshots/03-export-success.png)
 
 ### Contenu du ZIP
 
+Ouvre le fichier .zip téléchargé (double-clic).
+
+Tu vois les 3 fichiers : chat.json, chat.md, manifest.json.
+
+
 ![Contenu du ZIP](docs/screenshots/04-zip-content.png)
 
 ### Import en cours
 
+Ouvre un nouveau chat DeepSeek vide.
+
+Coche Mode compact.
+
+Clique « Importer un chat » → sélectionne le ZIP.
+
+Attends que le statut affiche 📤 Envoi X/Y… ou ⏳ Réponse X/Y….
 ![Import en cours](docs/screenshots/05-import-progress.png)
 
 ### Import terminé
 
+
+Attends la fin de l'import.
+
+Le panneau affiche ✅ Import terminé.
+
+Scrolle un peu pour montrer que les messages ont bien été réinjectés.
 ![Import terminé](docs/screenshots/06-import-success.png)
 
 Licence
