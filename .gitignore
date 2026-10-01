@@ -13,3 +13,6 @@ coverage/
 *.chatbridge.zip
 reports/
 .env.local
+
+# Vidéos de démo (ne pas commiter)
+*.mp4
