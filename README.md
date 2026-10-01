@@ -83,7 +83,10 @@ Voir docs/00_WORKING_AGREEMENT.md. Cycle en 7 phases, DoR/DoD stricts, 0 mypy/ru
 
 ## Captures d'écran
 
-### Panneau ChatBridge
+### Démo animée
+
+![Démo ChatBridge](docs/screenshots/chatbridge-demo.gif)
+
 
 Ouvre n'importe quel chat DeepSeek.
 
