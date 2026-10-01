@@ -87,7 +87,6 @@ Voir docs/00_WORKING_AGREEMENT.md. Cycle en 7 phases, DoR/DoD stricts, 0 mypy/ru
 
 ![Démo ChatBridge](docs/screenshots/chatbridge-demo.gif)
 
-
 Ouvre n'importe quel chat DeepSeek.
 
 ![Panneau ChatBridge](docs/screenshots/01-panel.png)
@@ -139,6 +138,12 @@ Le panneau affiche ✅ Import terminé.
 
 Scrolle un peu pour montrer que les messages ont bien été réinjectés.
 ![Import terminé](docs/screenshots/06-import-success.png)
+
+
+
+### Vidéo de démo (45 s)
+
+[![Démo vidéo ChatBridge](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=FgTZ4fWs6BE)
 
 - Licence
 AGPL-3.0-or-later.
